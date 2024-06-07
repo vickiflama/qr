@@ -56,8 +56,27 @@ body{
 
 }
 
-@media (max-width:375px) {
+@media screen and (max-width: 375px){
     .card{
-        width: 50vw;
-    };
+        top: 10%;
+        left: 22%;
+        width: 150px;
+        height: 300px;
+    }
+    .imagen{
+        width: 150px;
+        height: 150px;
+        
+    }
+    .text, .p1, .p2{
+        width: 150px;
+    }
+
+    .p1 {
+        font-size: 15px;
+    }
+    .p2{
+        font-size: 10px;
+    }
 }
+    
